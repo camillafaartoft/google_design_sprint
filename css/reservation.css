@@ -1,0 +1,170 @@
+/* Css reset */
+
+*,
+::after
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* Her starter vores CSS */
+
+body {
+    background-color: #f5efe6;
+}
+
+/* --- Header --- */
+.navn_logo {
+    text-align: center;
+    width: 20%;
+    margin-top: -7rem;
+    z-index: 2;
+    position: absolute;
+    left: 40%;
+}
+
+.søgeikon {
+    width: 35px;
+    margin-top: -7rem;
+    position: absolute;
+    float: right;
+    margin-left: 93%;
+}
+
+.menu_navigation {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+    margin-top: 8%;
+}
+
+.navigations_element {
+  text-decoration: none;
+  color: #7ba479;
+  margin-top: 20px;
+  font-size: 16pt;
+  margin-left: 175px;
+  margin-right: 75px;
+  justify-content: space-between;
+}
+
+.navigations_element:hover {
+    opacity: 0.7;
+}
+
+.streg {
+    width: 47%;
+    float: right;
+    position: relative;  
+}
+
+.streg2 {
+    width: 47%;
+    float: left;
+    line-height: 20%;
+}
+
+/* --- Main --- */
+
+.chatikon {
+    width: 80px;
+    position: fixed;
+    margin-left: 45%;
+    margin-top: 32rem;
+}
+
+.tekst_1 {
+    color:#7ba479;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-left: 60%;
+    margin-top: -25rem;
+}
+  
+.tekst_2 {
+    color:#7ba479;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -18rem;
+}
+
+.tekst_3 {
+    color:#7ba479;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -1rem;
+
+}
+
+.vase {
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.reserver_tekst {
+    margin-top: 20rem;
+}
+
+/* --- Reserver knappen --- */
+.reserver {
+    color: #f5efe6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 60%;
+    border: 5px solid #7ba479;
+    border-radius: 5px;
+    background-color: #7ba479;
+    margin-right: 30rem; 
+}
+
+/* --- Footer --*/
+
+.page_footer {
+    background-color: #7ba479;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 7rem;
+    padding-bottom: 20px;
+}
+
+.page_footer_overskrift {
+    color: #f5efe6;
+    margin-bottom: 0%;
+}
+
+.page_footer_kontakt {
+    margin-top: -20px;
+    color: #f5efe6;
+}
+
+.page_footer_open {
+    color: #f5efe6;
+    margin-top: 0;
+}
+
+.page_footer_address {
+    color: #f5efe6;
+}
+.some {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.page_footer_tider {
+    margin-top: 0px;
+    color: #f5efe6;;
+}
+
+
